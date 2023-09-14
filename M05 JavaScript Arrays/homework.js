@@ -174,10 +174,9 @@ function empiezaConNueve(num) {
 function todosIguales(array) {
    // Si todos los elementos del arreglo son iguales, retornar true.
    // Caso contrario retornar false.
-   // Tu código: 
-     // Obtenemos el primer elemento del arreglo.
+   // Tu código:      
      let primerElemento = array[0]; 
-     // Recorremos el arreglo.
+     
      for (let i = 1; i < array.length; i++) {       
        if (primerElemento !== array[i]) {
          return false;
